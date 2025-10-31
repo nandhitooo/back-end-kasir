@@ -1,0 +1,19 @@
+{
+  "name": "back-end-kasir",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.3",
+    "@hapi/inert": "^7.1.0",
+    "dotenv": "^17.2.3",
+    "pg": "^8.16.3",
+    "uuid": "^13.0.0"
+  },
+  "description": ""
+}
