@@ -1,9 +1,9 @@
 'use strict';
 
-const { createServer } = require('./config/server');
-const { testConnection } = require('./config/database');
-const { seedData } = require('./utils/seed');
-const routes = require('./routes');
+const { createServer } = require('./src/config/server');
+const { testConnection } = require('./src/config/database');
+const { seedData } = require('./src/utils/seed');
+const routes = require('./src/routes');
 
 const init = async () => {
   const server = await createServer();
